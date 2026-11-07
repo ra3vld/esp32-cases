@@ -1,0 +1,47 @@
+{
+  "source_release": "r48-skirts",
+  "fixed_export_sha256": {
+    "output/step/05_interface_cassette.step": "e264723cd0adf5681e9beccb7af499163ce025f2332700e0ec448f646d90f6ca",
+    "output/step/03_rear_cover.step": "3e1b997b90ca0eed41226a51956a6c7570f5d685ce20f8d6927c132352a83d8d",
+    "output/step/04_sole.step": "dd6782e67d1d238268385fce721676ce18557fcce4b315e3f9916666f8269530",
+    "output/step/07_fit_coupon.step": "ddd2f964cf31aa6eea7ac184fef501f0a759cb4c92c8de3f10bb73a540188377",
+    "output/step/06_cable_clamp.step": "9465c73bfb8332af2c32e06f154aee7e07c49729c7802d4cf8e0e23d7d5d0f7c",
+    "output/step/02_body.step": "75c05baac6cabaf1d718f208082f14796b96f73e5a91f11c66dde628adb52d3b",
+    "output/stl/04_sole.stl": "cbaa915324658aad4e58a7ae036540238be93a9397237d161d071b6fe0f62d28",
+    "output/stl/06_cable_clamp.stl": "eebc0c90ac57f9c6d6636a6f652a06fd94559322f8dc071413c771be8239a3fa",
+    "output/stl/07_fit_coupon.stl": "01512f4b46c9067406895b1e0111812c5183a61a783e5d2b4621b3eda0b3a538",
+    "output/stl/05_interface_cassette.stl": "f5afe1353b1dfd30aa3c261e862882d05af65511b840fd9564812417d9bf29af",
+    "output/stl/03_rear_cover.stl": "4ac2c86ac4edc378556f143fbdd81f2e1684cf70b6dc0878bc574d54fc79e1f6",
+    "output/stl/02_body.stl": "9f3cf7ce9ad3d35f8178ee2aefc43447f3b7e1c1bca82e7abe8731f0b0ace51b",
+    "output/print_stl/04_sole.stl": "582ecd36cf1070a408d37ffdbe50d3c096d04f664a2159ce62a9620033e7567d",
+    "output/print_stl/06_cable_clamp.stl": "5ec3f30c1a704d800138f2290e3292b403bca5062cabffe4203008220cd851e6",
+    "output/print_stl/07_fit_coupon.stl": "2c9b7d2635056f681db64ce025161061bd6f928f3535fa182c2e58781e4c1985",
+    "output/print_stl/05_interface_cassette.stl": "ee02506bab8e0290bd95065a63bce6e5e685bcdd46b013317a137f7cfb5f0845",
+    "output/print_stl/03_rear_cover.stl": "ae7e1cff006466a46928de558726591a717c21e18406fb72c9dfa0d141ab8f16",
+    "output/print_stl/02_body.stl": "c0fcf036f7536fd6282f220dd18b5ecb324f92e2ab4fe7a9e232def5e452230f"
+  },
+  "board_mount_pitch_mm": [
+    94.5,
+    47.9
+  ],
+  "frame_screws_uv_mm": [
+    [
+      -54,
+      -21
+    ],
+    [
+      -54,
+      21
+    ],
+    [
+      54,
+      -21
+    ],
+    [
+      54,
+      21
+    ]
+  ],
+  "required_window_shift_mm": 2,
+  "required_display_forward_mm": 1
+}

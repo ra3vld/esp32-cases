@@ -1,0 +1,63 @@
+# Local research, history and publication work
+/local-notes/
+/.agents/
+/.aws/
+/.codex/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated model exports; retain previews and manufacturing drawings.
+**/output/**
+!**/output/
+!**/output/*.png
+!**/output/*.pdf
+
+# Inputs used by the current ESP32 compatible rebuild.
+!/esp32-3248s035c/capsule-v01/output/step/
+!/esp32-3248s035c/capsule-v01/output/stl/
+!/esp32-3248s035c/capsule-v01/output/print_stl/
+!/esp32-3248s035c/capsule-v01/output/print_stl/02_body.stl
+!/esp32-3248s035c/capsule-v01/output/print_stl/03_rear_cover.stl
+!/esp32-3248s035c/capsule-v01/output/print_stl/04_sole.stl
+!/esp32-3248s035c/capsule-v01/output/print_stl/05_interface_cassette.stl
+!/esp32-3248s035c/capsule-v01/output/print_stl/06_cable_clamp.stl
+!/esp32-3248s035c/capsule-v01/output/print_stl/07_fit_coupon.stl
+!/esp32-3248s035c/capsule-v01/output/step/01_front_frame.step
+!/esp32-3248s035c/capsule-v01/output/step/02_body.step
+!/esp32-3248s035c/capsule-v01/output/step/03_rear_cover.step
+!/esp32-3248s035c/capsule-v01/output/step/04_sole.step
+!/esp32-3248s035c/capsule-v01/output/step/05_interface_cassette.step
+!/esp32-3248s035c/capsule-v01/output/step/06_cable_clamp.step
+!/esp32-3248s035c/capsule-v01/output/step/07_fit_coupon.step
+!/esp32-3248s035c/capsule-v01/output/step/08_board_coupon.step
+!/esp32-3248s035c/capsule-v01/output/stl/02_body.stl
+!/esp32-3248s035c/capsule-v01/output/stl/03_rear_cover.stl
+!/esp32-3248s035c/capsule-v01/output/stl/04_sole.stl
+!/esp32-3248s035c/capsule-v01/output/stl/05_interface_cassette.stl
+!/esp32-3248s035c/capsule-v01/output/stl/06_cable_clamp.stl
+!/esp32-3248s035c/capsule-v01/output/stl/07_fit_coupon.stl
+
+# Generated packages and diagnostics
+*.zip
+*.log
+**/output/validation.json
+**/output/mesh-validation.json
+**/output/manifest.json
+**/output/*-qa.json
+**/output/viewer*-preview.png
+**/output/drawing_views/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Compact static preview deployment and release payloads
+/.pages-dist/
+/release-dist/

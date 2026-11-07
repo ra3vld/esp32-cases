@@ -1,0 +1,8 @@
+# Preserve CAD and mesh exports byte for byte and avoid line-oriented diffs.
+*.step binary
+*.stp binary
+*.stl binary
+*.pdf binary
+
+# Generated standalone viewers embed large mesh payloads.
+**/output/capsule-3d.html -diff linguist-generated=true

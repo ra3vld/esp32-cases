@@ -1,0 +1,18 @@
+{
+  "manufacturer_document": {
+    "url": "https://www.guition.com/icms/upload/fb081940d6fc11f09850077a33e1404f/FTPData/UEditor/file/2026121/1768961091987/ESP32-3248S035%20Specifications-EN.pdf",
+    "sha256": "9c73294554e344a82a3ff8459deeed9c26f85d6a0b87294747551edcd3e224cd",
+    "pages_used": [
+      4,
+      5,
+      6
+    ],
+    "scope": "Manufacturer family R/C document, not an exact C-revision 3D model",
+    "distribution": "External link only; manufacturer PDF is not bundled."
+  },
+  "layout_reference": {
+    "url": "https://github.com/ardnew/ESP32-3248S035/blob/main/docs/pcb-layout.jpg",
+    "scope": "R variant, component identification only. Not evidence of C mechanical fit."
+  },
+  "cad_parameters": "parameters.json"
+}

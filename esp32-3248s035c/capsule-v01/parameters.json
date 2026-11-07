@@ -1,0 +1,250 @@
+{
+  "revision": "0.1",
+  "units": "mm",
+  "outer_width": 142.0,
+  "outer_depth": 90.0,
+  "outer_height": 91.0,
+  "wall": 2.4,
+  "sole_thickness": 3.2,
+  "clearance": 0.3,
+  "lip_thickness": 1.6,
+  "lip_height": 3.0,
+  "lip_lead": 0.2,
+  "tilt_back_deg": 15.0,
+  "board_origin": [
+    0.0,
+    18.0,
+    47.0
+  ],
+  "pcb_width": 101.5,
+  "pcb_height": 54.9,
+  "mount_pitch": [
+    94.5,
+    47.9
+  ],
+  "pcb_hole_diameter": 3.2,
+  "pcb_thickness": 1.6,
+  "glass_size": [
+    85.5,
+    54.9
+  ],
+  "glass_front_w": -4.5,
+  "component_back_w": 9.5,
+  "active_size": [
+    73.44,
+    48.96
+  ],
+  "window_size": [
+    76.5,
+    52.0
+  ],
+  "frame_front_w": -7.2,
+  "frame_back_w": -4.8,
+  "front_opening": [
+    108.0,
+    59.6
+  ],
+  "frame_screws": [
+    [
+      -54,
+      -21
+    ],
+    [
+      -54,
+      21
+    ],
+    [
+      54,
+      -21
+    ],
+    [
+      54,
+      21
+    ]
+  ],
+  "rear_plane_y": 72.0,
+  "rear_screws": [
+    [
+      -47,
+      28
+    ],
+    [
+      47,
+      28
+    ],
+    [
+      -40.0,
+      57.0
+    ],
+    [
+      40.0,
+      57.0
+    ]
+  ],
+  "sole_lip_size": [
+    134.0,
+    67.7,
+    25.0
+  ],
+  "sole_lip_center_y": 42.15,
+  "sole_screws": [
+    [
+      -53,
+      28
+    ],
+    [
+      53,
+      28
+    ],
+    [
+      -53,
+      50
+    ],
+    [
+      53,
+      50
+    ]
+  ],
+  "insert_diameter": 4.6,
+  "insert_length": 4.0,
+  "insert_pilot": 4.2,
+  "m3_clearance": 3.4,
+  "suction_diameter": 20.0,
+  "suction_hole": 6.0,
+  "suction_web": 2.0,
+  "suction_head_clearance": 12.8,
+  "suction_centers": [
+    [
+      -44,
+      20
+    ],
+    [
+      44,
+      20
+    ],
+    [
+      -54,
+      62
+    ],
+    [
+      54,
+      62
+    ]
+  ],
+  "ldr_uv": [
+    47.1,
+    -14.4
+  ],
+  "led_uv": [
+    47.1,
+    15.2
+  ],
+  "ldr_hole": 2.0,
+  "led_hole": 1.5,
+  "buttons_uv": [
+    [
+      33.2,
+      -21.0
+    ],
+    [
+      29.3,
+      -21.0
+    ]
+  ],
+  "button_top_w": 4.6,
+  "button_access": 2.0,
+  "usb_uv_w": [
+    -51.5,
+    10.0,
+    3.2
+  ],
+  "usb_plug_size": [
+    23.0,
+    12.0,
+    6.8
+  ],
+  "interface_size": [
+    40.0,
+    25.0,
+    25.0
+  ],
+  "interface_center_xy": [
+    6.0,
+    46.0
+  ],
+  "interface_bottom_z": 8.0,
+  "cassette_screws": [
+    [
+      -22,
+      43
+    ],
+    [
+      32,
+      43
+    ]
+  ],
+  "cable_diameter": 5.0,
+  "cable_center_xz": [
+    -32,
+    13
+  ],
+  "clamp_center_y": 60.5,
+  "clamp_screws": [
+    [
+      -42,
+      60.5
+    ],
+    [
+      -22,
+      60.5
+    ]
+  ],
+  "stl_linear_tolerance": 0.025,
+  "stl_angular_tolerance": 0.07,
+  "frame_boss_end_w": -0.3,
+  "frame_screw_seat_w": 5.6,
+  "rear_screw_seat_y": 80.0,
+  "skin_size": [
+    142.0,
+    130.0,
+    126.0
+  ],
+  "skin_center": [
+    0.0,
+    25.0,
+    28.0
+  ],
+  "skin_radius": 48.0,
+  "front_skin_fillet": 2.4,
+  "surface_revision": "analytic-r48-full-skirts",
+  "frame_tool_entry_u": 49.0,
+  "frame_tool_clearance": 5.1,
+  "front_opening_radius": 8.0,
+  "release_id": "r48-front-r2-f1",
+  "clamp_size": [
+    30.0,
+    10.0,
+    6.5
+  ],
+  "clamp_base_top_z": 12.7,
+  "clamp_cap_bottom_z": 13.0,
+  "clamp_seat_z": 17.7,
+  "clamp_pin_diameter": 2.4,
+  "rear_post_diameter": 14.0,
+  "rear_post_start_y": 56.0,
+  "rear_root_end_y": 68.4,
+  "rear_root_height": 14.0,
+  "rear_receiver_start_y": 66.0,
+  "bottom_receiver_top_z": 8.9,
+  "rear_lip_inset": 3.5,
+  "frame_screw_length": 10,
+  "frame_boss_diameter": 8.8,
+  "display_forward_mm": 1.0,
+  "window_center_u": 2.0,
+  "active_center_u": 2.0,
+  "usb_plug_previous_size": [
+    23.0,
+    12.0,
+    8.0
+  ]
+}
