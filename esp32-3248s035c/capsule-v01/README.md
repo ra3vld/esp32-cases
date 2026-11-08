@@ -6,7 +6,7 @@
 
 ## Файлы
 
-- [STL для печати](output/print_stl/) — после пересборки: шесть деталей корпуса и два пробника, миллиметры, масштаб 100%.
+- [STL для печати](output/print_stl/) — шесть деталей корпуса и два пробника, миллиметры, масштаб 100%.
 - [Чертежи, 10 листов](output/capsule-v01-drawings.pdf).
 - STEP сборки: `output/assembly.step` и [отдельных деталей](output/step/).
 - Автономный 3D-просмотрщик: `output/capsule-3d.html`, [внешний вид](output/cad-preview.png), [разнесённая сборка](output/cad-construction.png).
@@ -14,7 +14,7 @@
 
 `output/stl/` содержит сетки в координатах сборки. В `output/reference_step/` находятся габаритные модели электроники, присосок и крепежа для компоновки.
 
-Полный набор STL, STEP сборки и HTML создаётся при [пересборке CAD](#пересборка-cad). В Git сохранены STEP деталей и базовые STL деталей 02–07; файлы 01 и 08 в `print_stl/` и `stl/` создаёт генератор.
+Готовый комплект STEP/STL, сборка и HTML-просмотрщик находятся в [архиве корпуса из релиза](https://github.com/ra3vld/esp32-cases/releases/latest/download/ldg-capsule-v01.zip).
 
 ## Совместимость
 
@@ -86,8 +86,8 @@ python3 -m venv .venv
 .venv/bin/python package.py
 ```
 
-`build.py` обновляет переднюю рамку и пробник платы, используя опубликованные STEP остальных деталей как основу совместимого комплекта. Для этого сохранить `output/step/`, `output/stl/`, `output/print_stl/` и `compatibility-baseline.json` из репозитория.
+Для пересборки использовать исходники вместе с комплектными каталогами `output/step/`, `output/stl/`, `output/print_stl/` и файлом `compatibility-baseline.json`.
 
 Для PDF установить шрифты DejaVu Sans; для PNG используется VTK с внеэкранным рендером. На Debian/Ubuntu шрифты устанавливаются пакетом `fonts-dejavu-core`.
 
-`parameters.json` задаёт размеры и посадки, `build.py` — форму деталей. `validate.py` выполняет проверки модели и создаёт служебный отчёт. `preview.py` обновляет PNG и автономный HTML, `drawings.py` — PDF. `package.py` собирает один архив `ldg-capsule-v01.zip` с исходниками, моделями и инструкцией. Архивы и служебные отчёты исключены из Git.
+Размеры и посадки задаются в `parameters.json`, форма деталей — в `build.py`. После выполнения команд готовый комплект находится в `ldg-capsule-v01.zip`.

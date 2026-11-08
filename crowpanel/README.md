@@ -2,7 +2,7 @@
 
 Корпус для Elecrow CrowPanel 2.1 с круглым сенсорным экраном и энкодером. Комплект **0.3**: основание 94 × 88 мм, наклон экрана 15° назад, нижний просвет 22 мм. Дисплей установлен на съёмном держателе; задняя и нижняя крышки открывают доступ к разъёмам и крепежу.
 
-Полный комплект STL, STEP сборки и HTML-просмотрщик создаются командами из раздела [«Пересборка CAD»](mechanical/capsule-v03/README.md#пересборка-cad).
+Готовый комплект STEP/STL, сборка и HTML-просмотрщик доступны в [релизах](https://github.com/ra3vld/esp32-cases/releases/latest/download/crowpanel-capsule-0.3.zip).
 
 ![Корпус CrowPanel](mechanical/capsule-v03/output/cad-preview.png)
 
